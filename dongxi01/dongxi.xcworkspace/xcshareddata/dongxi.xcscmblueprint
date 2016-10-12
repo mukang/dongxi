@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ccc7bf83-b504-4ac2-a416-9ebaa4c9ec4a++8886",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "ccc7bf83-b504-4ac2-a416-9ebaa4c9ec4a++8886" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ccc7bf83-b504-4ac2-a416-9ebaa4c9ec4a++8886" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F1F76BC0-8903-4A06-AB35-35B6F119BC85",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ccc7bf83-b504-4ac2-a416-9ebaa4c9ec4a++8886" : "code\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "dongxi",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "dongxi\/dongxi.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/101.200.89.113",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ccc7bf83-b504-4ac2-a416-9ebaa4c9ec4a++8886"
+    }
+  ]
+}

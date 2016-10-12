@@ -1,0 +1,80 @@
+//
+//  PrefixHeader.pch
+//  dongxi
+//
+//  Created by 穆康 on 15/8/4.
+//  Copyright (c) 2015年 穆康. All rights reserved.
+//
+
+#ifndef dongxi_PrefixHeader_pch
+#define dongxi_PrefixHeader_pch
+
+//#import "MJGAvailability.h"
+
+#import "DXUserDefaultsKeys.h"
+#import "DXMobileConfig.h"
+#import "DXNoticeMessageConfig.h"
+#import "UIView+Extension.h"
+#import "DXConst.h"
+#import "DXFont.h"
+#import "DXMutiLineLabel.h"
+#import "DXBarButtonItem.h"
+#import "DXMainNavigationController.h"
+#import "DXRefreshHeader.h"
+#import "DXRefreshFooter.h"
+#import "DXRefreshAutoFooter.h"
+#import "DXScreenNotice.h"
+#import "DXCompatibleAlert.h"
+#import "DXAvatarView.h"
+#import "UIViewController+DXDataTracking.h"
+#import "MBProgressHUD+Extension.h"
+
+// 颜色
+#define DXRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+// 随机色
+#define DXRandomColor DXRGBColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+
+// 通用颜色
+#define DXCommonColor DXRGBColor(109, 197, 255)
+
+/*! 导航栏颜色 */
+#define DXNavBarColor DXRGBColor(247, 250, 251)
+
+// 带透明度的颜色
+#define DXARGBColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+/** 屏幕宽度 */
+#define DXScreenWidth [UIScreen mainScreen].bounds.size.width
+
+/** 屏幕高度 */
+#define DXScreenHeight [UIScreen mainScreen].bounds.size.height
+
+// 状态栏高度
+#ifndef DXStatusBarHeight
+#define DXStatusBarHeight [UIApplication sharedApplication].statusBarFrame.size.height
+#endif
+
+// 导航栏高度
+#ifndef DXNavBarHeight
+#define DXNavBarHeight self.navigationController.navigationBar.size.height
+#endif
+
+//系统版本
+#ifndef DXSystemVersion
+#define DXSystemVersion [[[UIDevice currentDevice] systemVersion] floatValue]
+#endif
+
+#define DXRealValue(value) ((value)/414.0f*DXScreenWidth)
+
+// 通知中心
+#define DXNotificationCenter [NSNotificationCenter defaultCenter]
+
+// 打印输出
+#ifdef DEBUG // 处于开发阶段
+#define DXLog(...) NSLog(__VA_ARGS__)
+#else // 处于发布阶段
+#define DXLog(...)
+#endif
+
+#endif
